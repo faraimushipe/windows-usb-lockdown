@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+; Corporate USB Lockdown - Deployed @ Inclusive Financial Services
+; Disables USB mass storage completely
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\USBSTOR]
+"Start"=dword:00000004
+
+; GPO Backup: Deny all USB storage access
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\RemovableStorageDevices\{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}]
+"Deny_Execute"=dword:00000001
+"Deny_Read"=dword:00000001
+"Deny_Write"=dword:00000001
