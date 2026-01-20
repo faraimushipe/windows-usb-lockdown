@@ -1,6 +1,6 @@
 Windows Registry Editor Version 5.00
 
-; Corporate USB Lockdown - Deployed @ Inclusive Financial Services
+; Corporate USB Lockdown -
 ; Disables USB mass storage completely
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\USBSTOR]

@@ -10,7 +10,7 @@
 reg query "HKLM\SYSTEM\CurrentControlSet\Services\USBSTOR" /v Start
 :: Should return: 0x4 (DISABLED)
 
-🎯 Business Results @ Inclusive Financial
+🎯 Business Results 
 1.Malware via USB: 12/month → 0
 
 2.Deployment time: 30 seconds/endpoint

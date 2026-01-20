@@ -1,5 +1,5 @@
 
-## 5. Updated README.md (Hiring Gold)
+## 5. Updated README.md 
 ```markdown
 # Windows USB Lockdown Solution (.reg Files)
 
@@ -17,7 +17,7 @@
 | **Read-Only** | `02-usb-readonly.reg` | Read but no copy | Executives |
 | **Emergency** | `03-usb-unblock.reg` | Full restore | IT Support |
 
-## 📈 Impact @ Inclusive Financial Services
+## 📈 Impact 
 👥 100+ endpoints secured
 📉 100% malware reduction (6 months)
 ⚡ 30-second deployment
